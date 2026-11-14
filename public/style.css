@@ -1,0 +1,87 @@
+body{
+    padding: 0; 
+    margin: 0;
+    font-family: Jakarta, monospace; 
+}
+.fa-compass{
+    color: #fe4248; 
+    font-size: 2rem;
+}
+.nav-item{
+    color: #222222 !important; 
+    font-weight: 500; 
+    font-size: 1.1rem;
+
+}
+.page-wrap {
+  max-width: 1760px;   /* stops stretching on huge screens */
+  margin: 0 auto;      /* keeps the content centered */
+}
+
+.card-img-top{
+    aspect-ratio:  4 / 3;     /* every image gets the exact same shape */
+    object-fit: cover;       /* crops big images to fit, never stretches */
+    width: 100%;
+    border-radius: 0.75rem; 
+    font-size: 1rem;
+}
+.listing-card{
+    border-radius: 0.75rem;
+    /* border: none; */
+    transition: opacity 0.2s ease;
+
+}
+
+.listing-card .card-body {
+    padding:  0.6rem 0.5rem 0.2rem 0.5rem;      /* small gap under the image, none on the sides */
+}
+.listing-card .card-text{
+    font-weight: 600;
+    margin-bottom: 0.1rem;      /* tiny gap between lines */
+    font-size: 0.7rem;          /* smaller text */
+    
+
+}
+.listing-card:hover {
+    opacity: 0.8;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.add-btn {
+    background-color: #fe424d;
+    color: #fff;
+    border-radius: 12px;
+    padding: 0.6rem 1.5rem;
+}
+
+.add-btn:hover {
+    background-color: #e63742;
+    color: #fff;
+}
+
+.form-control {
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+}
+
+.form-control:focus {
+    border-color: #222;
+    box-shadow: none;
+}
+
+.edit-listing-btn button, .delete-listing-btn button{
+    background-color: #fe424d;
+    margin-top: 1rem;
+    color: #fff;
+    border-radius: 12px;
+    padding: 0.6rem 1.5rem;
+}
+
+.edit-listing-btn button:hover, .delete-listing-btn button:hover {
+    background-color: #e63742;
+    color: #fff;
+}
