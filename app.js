@@ -5,6 +5,8 @@ const Listing = require("./models/listings.js");
 const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
+const ExpressError = require("./utils/ExpressError.js"); 
+const listingSchema = require("./schema.js");
 
 const app = express(); 
 
